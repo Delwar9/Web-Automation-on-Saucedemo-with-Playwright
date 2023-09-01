@@ -1,0 +1,5 @@
+cls && npx playwright test
+npx playwright show-report
+npx playwright codegen
+
+npx playwright test LoginTestRunner.spec.js --project=firefox
